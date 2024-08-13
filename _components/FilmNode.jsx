@@ -7,7 +7,7 @@ const FilmNode = ({ data }) => {
   return (
     <>
       <Image
-        src={`/film-logos/${data.filmTitle}.jpg`}
+        src={`film-logos/${data.filmTitle}.jpg`}
         width={200}
         height={800}
         alt={data.name}
